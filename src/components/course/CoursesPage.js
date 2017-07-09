@@ -8,7 +8,7 @@ import {browserHistory} from 'react-router';
 class CoursesPage extends React.Component {
   constructor(props, context){
     super(props, context);
-    this.redirectToAddcoursePage = this.redirectToAddcoursePage.bind(this)
+    this.redirectToAddcoursePage = this.redirectToAddcoursePage.bind(this);
   }
 
   courseRow(course, index){
